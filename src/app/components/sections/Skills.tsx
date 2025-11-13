@@ -6,7 +6,7 @@ import { Filter, Star } from 'lucide-react';
 import { FadeIn, StaggerFadeIn } from '@/app/components/animations/FadeIn';
 import { useMouseTracking } from '@/app/components/animations/useScrollAnimation';
 import { skills, skillCategories } from '@/data/skills';
-import { getSkillLevelColor, getSkillLevelBg } from '@/lib/utils';
+import { getSkillLevelColor, getSkillLevelBg, cn } from '@/lib/utils';
 import { Skill } from '@/types/portfolio';
 import { skillCard, projectCardHover } from '@/lib/animations';
 
